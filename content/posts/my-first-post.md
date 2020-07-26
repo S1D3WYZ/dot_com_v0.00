@@ -1,7 +1,8 @@
 ---
 title: "My First Post"
 date: 2020-07-25T07:14:41-07:00
-draft: true
+draft: false
+comments: false
 toc: false
 images: 
 tags: 
@@ -9,8 +10,7 @@ tags:
   - coding
   - interest
   - derp
-categories:
-  - development
----
+
+---  
 
 I'm trying to learn HUGO to build a website. Wish me luck! ... i'm gonna need it
