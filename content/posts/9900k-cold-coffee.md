@@ -1,5 +1,5 @@
 ---
-title: "9900k `Cold Coffee`"
+title: "Cold Coffee"
 date: 2020-07-25T18:25:48-07:00
 draft: false
 toc: false
@@ -11,7 +11,7 @@ tags:
 ---
 
 
-{{< figure src="/images/giggity.jpg" alt="image" caption="GigGiTy" class="left" >}}
+{{< figure src="/images/giggity.jpg" alt="Chip" caption="GigGiTy">}}
 
 
 Once upon a time, I ordered a bunch of computer parts. 
@@ -26,4 +26,4 @@ I still need a GPU, and both Nvidia & AMD will have new offerings on the market 
 Stay tuned
 
 
-{{< figure src="/images/giggitygoo.jpg" alt="image" caption="GigGiTy GoO !!" class="right" >}}
+{{< figure src="/images/giggitygoo.jpg" alt="Chip n Dip" caption="GigGiTy GoO!!">}}
