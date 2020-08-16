@@ -1,5 +1,5 @@
 baseURL = "https://s1d3wyz.com"
-languageCode = "en-us"
+languageCode = "en-US"
 defaultContentLanguage = "en"
 title = "S1D3WYZ"
 theme = "hermit"
@@ -10,7 +10,7 @@ pygmentsUseClasses  = true
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-googleAnalytics = "UA-174926575-1"
+# googleAnalytics = "UA-174926575-1"
 # disqusShortname = "yourdiscussshortname"
 
 [author]
@@ -32,7 +32,7 @@ googleAnalytics = "UA-174926575-1"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  # description = ""
+  # description = "S1D3WTZ is an old school gamer, musician, snowboarder, and tech enthusiast"
   # images = [""]
   themeColor = "#494f5c"
 
@@ -51,7 +51,7 @@ googleAnalytics = "UA-174926575-1"
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
   
   # Add custom css
-  # customCSS = ["css/foo.css", "css/bar.css"]
+  customCSS = ["/css/main.css"]
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
@@ -79,11 +79,18 @@ googleAnalytics = "UA-174926575-1"
 [menu]
 
   [[menu.main]]
-    name = "Pots"
-    url = "posts/"
+    name = "Flavor Text"
+    url = "about-s1d3wyz/"
     weight = 10
 
   [[menu.main]]
-    name = "Flavor Text"
-    url = "about-s1d3wyz/"
+    name = "Pots"
+    url = "posts/"
     weight = 20
+
+  [[menu.main]]
+    name = "Squad"
+    url = "squad/"
+    weight = 30
+
+
