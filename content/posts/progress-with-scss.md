@@ -21,4 +21,4 @@ Something was getting lost in translation. Between being freshly armed with tons
 
 ...to be fair, I honestly have NO idea what I did that broke it (site wouldn't even build for a while, no matter how many changes I rolled back), or what I did that eventually fixed it (was something going on with passing variables between site/page/item contexts).. but uh, well, it kinda works now... [go take a look][1] And I just de-string-i-fied their SCSS , so now the *real* un-winding of the template can begin. Fully custom, coming soon™
 
-[1]: {{<ref "/squad/">}}
+[1]: /squad/
