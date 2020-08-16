@@ -12,7 +12,7 @@
 	{{- partial "analyticshead.html" . }}
 	{{- partial "structured-data.html" . }}
 	{{- partial "favicons.html" }}
-	<title>{{.Title}}</title>
+	<title>{{ .Site.Title }}{{ if ne .Title .Site.Title}} - {{ .Title }}{{ end }} </title>
 	{{ range .AlternativeOutputFormats -}}
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Title | safeHTML }}
 	{{ end -}}
@@ -21,6 +21,7 @@
 	{{- block "head" . -}}{{- end }}
 	{{- range .Site.Params.customCSS }}
 	<link rel="stylesheet" href="{{ . | absURL }}">
+	<link rel="me" href="https://twitter.com/s1d3wyz">
 	{{- end }}
 	{{- if templates.Exists "partials/extra-head.html" -}}
 	{{ partial "extra-head.html" . }}
@@ -42,7 +43,7 @@
 		{{ $script := $main | minify | fingerprint -}}
 		<script src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous"></script>
 	{{ end }}
-
+	{{ partial "twitterscript"}}
 	
 	{{- if templates.Exists "partials/extra-foot.html" -}}
 	{{ partial "extra-foot.html" . }}
