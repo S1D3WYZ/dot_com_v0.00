@@ -1,0 +1,33 @@
+{{ define "header" }}
+{{ partialCached "header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<main class="site-main section-inner thin animated fadeIn faster">
+	<h1>Squad</h1>
+	{{- if .Content }}
+	<div class="content">
+		{{ .Content }}
+	</div>
+	{{- end }}
+
+	<div>
+		{{- range .Pages -}}
+		<h2>{{- .Title -}}</h2>
+		<img src="{{ .Params.Avatar }}" alt="{{ .Title }}" />
+		{{ with .Params.Social.Twitch }}<a href="{{ . }}" target="_blank">Twitch</a>{{ end }}
+		{{ with .Params.Social.Twitter }}<a href="{{ . }}" target="_blank">Twitter</a>{{ end }}
+		{{ with .Params.Social.Youtube }}<a href="{{ . }}" target="_blank">Youtube</a>{{ end }}
+		{{ with .Params.Social.Discord }}<a href="{{ . }}" target="_blank">Discord</a>{{ end }}
+		{{ with .Params.Social.Web }}<a href="{{ . }}" target="_blank">Website</a>{{ end }}
+		{{ with .Params.Social.Shop }}<a href="{{ . }}" target="_blank">Shop</a>{{ end }}
+		<hr>
+		{{ end }}
+	</div>
+
+</main>
+{{ end }}
+
+{{ define "footer" }}
+{{ partialCached "footer.html" . }}
+{{ end }}
