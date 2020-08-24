@@ -34,7 +34,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Metadata mostly used in document's head
   # description = "S1D3WTZ is an old school gamer, musician, snowboarder, and tech enthusiast"
   # images = [""]
-  themeColor = "#494f5c"
+  themeColor = "midnightblue"
 
   homeSubtitle = "TehDerpyNinja™"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'

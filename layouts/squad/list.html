@@ -1,33 +1,29 @@
-{{ define "header" }}
-{{ partialCached "header.html" . }}
-{{ end }}
-
+{{ define "header" }} {{ partialCached "header.html" . }} {{ end }}
 {{ define "main" }}
 <main class="site-main section-inner thin animated fadeIn faster">
-	<h1>Squad</h1>
-	{{- if .Content }}
-	<div class="content">
-		{{ .Content }}
-	</div>
-	{{- end }}
+  <h1>Squad</h1>
+  {{- if .Content }}
+  <div class="content">
+    {{ .Content }}
+  </div>
+  {{- end }}
 
-	<div>
+  <div>
 		{{- range .Pages -}}
-		<h2>{{- .Title -}}</h2>
-		<img src="{{ .Params.Avatar }}" alt="{{ .Title }}" />
-		{{ with .Params.Social.Twitch }}<a href="{{ . }}" target="_blank">Twitch</a>{{ end }}
-		{{ with .Params.Social.Twitter }}<a href="{{ . }}" target="_blank">Twitter</a>{{ end }}
-		{{ with .Params.Social.Youtube }}<a href="{{ . }}" target="_blank">Youtube</a>{{ end }}
-		{{ with .Params.Social.Discord }}<a href="{{ . }}" target="_blank">Discord</a>{{ end }}
-		{{ with .Params.Social.Web }}<a href="{{ . }}" target="_blank">Website</a>{{ end }}
-		{{ with .Params.Social.Shop }}<a href="{{ . }}" target="_blank">Shop</a>{{ end }}
-		<hr>
-		{{ end }}
-	</div>
-
+		<div class="card">
+			<img src="{{ .Params.Avatar }}" alt="{{ .Title }}" class="card-avatar" />
+			<div class="card-info">
+			<h2>{{- .Title -}}</h2>
+			<ul>
+				{{ with .Params.Social.Twitch }}<li><a href="{{ . }}" target="_blank">Twitch</a></li>{{ end }}
+				{{ with .Params.Social.Twitter }}<li><a href="{{ . }}" target="_blank">Twitter</a></li>{{ end }}
+				{{ with .Params.Social.Youtube }}<li><a href="{{ . }}" target="_blank">Youtube</a></li>{{ end }}
+				{{ with .Params.Social.Discord }}<li><a href="{{ . }}" target="_blank">Discord</a></li>{{ end }}
+				{{ with .Params.Social.Web }}<li><a href="{{ . }}" target="_blank">Website</a></li>{{ end }}
+				{{ with .Params.Social.Shop }}<li><a href="{{ . }}" target="_blank">Shop</a></li>{{ end }}</ul>
+			</div>
+		</div>
+    {{ end }}
+  </div>
 </main>
-{{ end }}
-
-{{ define "footer" }}
-{{ partialCached "footer.html" . }}
-{{ end }}
+{{ end }} {{ define "footer" }} {{ partialCached "footer.html" . }} {{ end }}
