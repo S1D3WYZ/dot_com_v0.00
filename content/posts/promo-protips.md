@@ -4,7 +4,7 @@ date: 2021-09-26T13:09:06-07:00
 draft: false
 toc: true
 images: 
-  - images/s1d3s.jpg
+  - "images/s1d3s.jpg"
 tags: 
   - Stream
   - Promotion
