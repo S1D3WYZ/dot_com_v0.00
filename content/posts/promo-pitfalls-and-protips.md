@@ -1,5 +1,5 @@
 ---
-title: "Promotonal ProTips"
+title: "Promotonal PitFalls and ProTips"
 date: 2021-09-26T13:09:06-07:00
 draft: false
 toc: true
