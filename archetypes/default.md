@@ -4,5 +4,6 @@ date: {{ .Date }}
 draft: true
 comments: false
 images:
+  - "/images/bg-sides.png"
 ---
 

@@ -4,6 +4,7 @@ date: 2020-07-25T07:06:22-07:00
 draft: false
 comments: false
 images:
+  - "/images/bg-sides.png"
 ---
 
 This is some flavor text about Sides. He likes coffee. A LOT.

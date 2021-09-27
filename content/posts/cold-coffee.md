@@ -5,6 +5,7 @@ draft: false
 toc: false
 comments: false
 images:
+  - "/images/bg-sides.png"
 tags:
   - pcmr
   - tech

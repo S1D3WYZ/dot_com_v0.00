@@ -5,6 +5,7 @@ draft: false
 comments: false
 toc: false
 images: 
+  - "/images/bg-sides.png"
 tags: 
   - web dev
   - coding

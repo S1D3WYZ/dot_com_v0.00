@@ -4,6 +4,7 @@ date: 2020-08-15T18:14:35-07:00
 draft: false
 toc: false
 images:
+  - "/images/bg-sides.png"
 tags: 
   - HTML
   - Templates
