@@ -11,6 +11,7 @@ tags:
   - Ettiquette
   - Discord
   - Community
+description: Mutterings of a madman concering promotional ettiquette.
 ---
 
 ## Unwritten Rules
