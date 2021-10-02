@@ -13,4 +13,4 @@ Sooo ... you know how all GPU's seem to be out of stock and / or WAY above MSRP 
 
 It's good to have good friends help you snipe and not scalp \<3
 
-{{< figure src="/images/3070-ftw3-ultra.png" width="300" alt="3070 FTW3 Ultra" caption="&lt;anticipation intensifies&gt;">}}
+{{< figure src="/images/3070-ftw3-ultra.png" width="300" alt="3070 FTW3 Ultra" caption="now we wait... &lt;anticipation intensifies&gt;">}}
