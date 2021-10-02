@@ -1,7 +1,7 @@
 ---
 title: "Friends FTW!"
 date: 2021-10-02T10:16:32-07:00
-draft: true
+draft: false
 toc: false
 images:
   - "/images/bg-sides.png"
