@@ -65,6 +65,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     url = "https://twitter.com/s1d3wyz"
 
   [[params.social]]
+    name = "discord"
+    url = "https://discord.gg/g7UetBZ"
+
+  [[params.social]]
     name = "youtube"
     url = "https://youtube.com/s1d3wyz"
 
