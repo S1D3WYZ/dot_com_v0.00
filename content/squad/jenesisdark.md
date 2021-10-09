@@ -1,6 +1,6 @@
 ---
 title: 'Jenesisdark'
-date: 2020-08-15T12:26:38-07:00
+date: 2019-08-15T12:26:38-07:00
 draft: false
 comments: false
 images:
@@ -11,6 +11,6 @@ social:
     twitter: 'https://twitter.com/jenesisdark',
     discord: 'https://discord.gg/kyyrtxY',
     youtube: 'https://youtube.com/jenesisdark',
-    shop: 'https://www.etsy.com/shop/KimimelaBodyCare',
+    etsy: 'https://www.etsy.com/shop/KimimelaBodyCare',
   }
 ---
