@@ -101,30 +101,30 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   from = "/discord"
   to = "https://discord.gg/g7UetBZ"
   status = 302
-  force = false
+  force = true
 
 [[redirects]]
   from = "/twitter"
   to = "https://twitter.com/s1d3wyz"
   status = 302
-  force = false
+  force = true
 
 [[redirects]]
   from = "/twitch"
   to = "https://twitch.tv/s1d3wyz"
   status = 302
-  force = false
+  force = true
 
 [[redirects]]
   from = "/youtube"
   to = "https://youtube.com/s1d3wyz"
   status = 302
-  force = false
+  force = true
 
 [[redirects]]
   from = "/yt"
   to = "https://youtube.com/s1d3wyz"
   status = 302
-  force = false
+  force = true
 
 
